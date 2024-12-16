@@ -1,8 +1,11 @@
 import requests
 import datetime
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 # clé API OpenWeather
-API_KEY = "27a2bc2af76eda261af74ece43e5c2a0" 
+API_KEY=os.getenv("API_KEY")
 
 # Coordonnées géographiques des villes
 CITIES = {
