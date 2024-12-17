@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-# clé API OpenWeather
+# recuperer clé API OpenWeather
 API_KEY=os.getenv("API_KEY")
 
 # Coordonnées géographiques des villes
